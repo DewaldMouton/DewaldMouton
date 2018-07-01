@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    font-family: "Roboto";
+    color: #303030;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #888888;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.dropdown-toggle {
+    display: flex;
+    padding: 10px;
+    width: 194px;
+    overflow: hidden;
+}
+
+.dropdown-toggle h3 {
+    margin: auto;
+    margin-right: 5px;
+}
+
+#dropdownMenuButton.dropdown-toggle::after {
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    -webkit-flex-direction: column;
+    /* Safari */
+    flex-direction: column;
+}
+
+.form {
+    padding: 15px 35px;
+    margin: auto;
+    display: flex;
+    -webkit-flex-direction: column;
+    /* Safari */
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px 0 #888888;
+}
+
+input {
+    margin: 10px 10px 10px 0;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px 0 #888888;
+}
+
+.dropdown-container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    -webkit-justify-content: space-between;
+    /* Safari */
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    display: flex;
+    -webkit-flex-direction: column;
+    /* Safari */
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px 0 #888888;
+    margin: 10px 10px 10px 0;
+    font-size: 16px;
+    min-width: 194px;
+}
+
+.dropdown .btn {
+    color: #303030;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.dropdown-menu {
+    max-height: 100px;
+    overflow-y: auto;
+    width: 194px;
+    overflow-x: hidden;
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer;
+}
